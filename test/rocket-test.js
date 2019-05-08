@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const Rocket = require('Rocket.js');
+const Rocket = require('../src/Rocket.js');
 
 describe('Initial setup of rocket', function() {
   it('Does not have a name', function() {
@@ -53,7 +53,5 @@ describe('Functionality of rocket', function() {
     expect(rocket.enginesIgnited).to.equal(true);
   });
 
-  it('Should be able to fill the fuel tanks', function() {
-    // Fill this in
-  });
+  it('Should be able to fill the fuel tanks');
 });
