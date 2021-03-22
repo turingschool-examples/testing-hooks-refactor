@@ -4,8 +4,7 @@ Utilize hooks to refactor test suite.
 
 ## Setup
 
-Run `npm install` to install dependencies.
-
-## Run Tests
-
-Run `mocha` if you have Mocha globally installed or the command `./node_modules/.bin/mocha` if you do not have mocha globally installed.
+1. `clone` down the repo
+2. `cd` into the repo's root directory
+3. Run `npm install` to install dependencies.
+4. Run `npm test` to run tests.
